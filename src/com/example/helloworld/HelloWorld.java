@@ -43,4 +43,9 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
             System.out.println(s+"HI");
         }
     }
+
+    static void printShapes(){
+        String firstShape="circle";
+        System.out.println(firstShape);
+    }
 }
