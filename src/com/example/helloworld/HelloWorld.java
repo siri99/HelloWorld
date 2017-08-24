@@ -30,6 +30,8 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
             System.out.println("Welcome again");
         }
 
+        printShapes();
+
         // 2. no depe nesting below
         for(String obj:al) { // Single statement conditionals should still be wrapped by curly brackets.
             // Comments should be indented relative to their position in the code.
