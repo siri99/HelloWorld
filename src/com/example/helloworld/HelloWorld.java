@@ -30,7 +30,7 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
             System.out.println("Welcome again");
         }
 
-        printShapes();
+        printShapes("circle");
 
         // 2. no depe nesting below
         for(String obj:al) { // Single statement conditionals should still be wrapped by curly brackets.
@@ -46,8 +46,8 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
         }
     }
 
-    static void printShapes(){
-        String firstShape="circle";
+    static void printShapes(String circle){
+        String firstShape= circle;
         System.out.println(firstShape);
     }
 }
