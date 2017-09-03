@@ -5,7 +5,10 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
     public static void main(String[] args) {
 
         String introVariable="Welcome"; // Variable names must be in camelCase.
-
+        System.out.println("Enter input");
+        Scanner sc=new Scanner(System.in);
+        int inp=sc.nextInt();
+        System.out.println("The number you enetered is "+inp);
         // verb for method name
         // 1. short method name below
         nameDisplayer("cs2103"); // Names representing methods must be verbs and written in camelCase.
@@ -39,6 +42,8 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
         }
     }
 
+    // basic guidelines for writing comments- comment below this
+    /** Prints the module names which are passed to the method */
     static void nameDisplayer(String... values){
         System.out.println("names of modules will be printed ");
         for(String s:values){
@@ -46,6 +51,7 @@ public class HelloWorld {  // Class/enum names must be nouns and written in Pasc
         }
     }
 
+    /** Prints the name of the shape that is passed to the method */
     static void printShapes(String circle){
         String firstShape= circle;
         System.out.println(firstShape);
